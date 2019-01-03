@@ -1,0 +1,24 @@
+{
+  "name": "lazy-af",
+  "version": "1.0.0",
+  "description": "subscribe to toiletries",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "graphqlgen": "graphqlgen"
+  },
+  "keywords": [],
+  "author": "Arthur Longbottom",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-yoga": "^1.16.9",
+    "graphqlgen": "^0.4.0",
+    "prisma-client-lib": "^1.23.2"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
